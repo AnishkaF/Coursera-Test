@@ -1,0 +1,103 @@
+h1{
+	text-align:center;
+	font-size:175%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+	float:left;
+	height:200px;
+	margin:auto;
+	box-sizing:border-box;
+	position:relative;
+	padding:0px;
+}
+
+.main{background-color: #ffe6e6;
+	border:1px solid black;
+	margin:auto;
+ 	height:150px;
+ 	width:90%;
+ 	padding:8px;
+ 	padding-top: 22px;
+ 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.topright1{
+	position:absolute;
+	top:0;
+	right:14px;
+	height:20px;
+	background-color:#e5e5ff;
+	margin:0px;
+	border:1px solid black;
+	font-size: 125%;
+	padding-left:10px;
+	padding-right:10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.topright2{
+	position:absolute;
+	top:0;
+	right:14px;
+	height:20px;
+	background-color:#ffffe5	;
+	margin:0px;
+	border:1px solid black;
+	font-size: 125%;
+	padding-left:10px;
+	padding-right:10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.topright3{
+	position:absolute;
+	top:0;
+	right:14px;
+	height:20px;
+	background-color:#e5ffec	;
+	margin:0px;
+	border:1px solid black;
+	font-size: 125%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/**DESKTOP**/
+@media  (min-width: 992px){
+	.onelg{width:33.33%;}
+	.twolg{width:33.33%;
+	}
+
+}
+
+/**TABLET**/
+@media  (min-width: 768px) AND (max-width: 991px){
+	.onemd{width:50%;}
+	.twomd{width:100%;}
+	.main2{background-color: #ffe6e6;
+	border:1px solid black;
+	margin:auto;
+ 	height:150px;
+ 	width:95%;
+ 	padding:8px;
+ 	padding-top: 22px;
+ 	font-family: Arial, Helvetica, sans-serif;}
+ 	.topright3b{
+	position:absolute;
+	top:0;
+	right:14px;
+	height:20px;
+	background-color:#e5ffec	;
+	margin:0px;
+	border:1px solid black;
+	font-size: 125%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+
+/**MOBILE**/
+@media  (max-width: 767px){
+	.onesm{width:100%;}
+	.twosm{width:100%;}
+
+}
