@@ -1,0 +1,25 @@
+.navbar-brand {
+  padding: 0px;
+  height:100%;
+}
+
+.navbar-brand h3{
+  line-height:18px;
+}
+
+.navbar{height:60px;
+		margin-bottom:0px;}
+
+.container{height:100%;
+			padding-left:2px;
+			padding-right: 2px;
+			}
+
+.navbar-header{height:100%;
+			padding-left: 15px;
+			}
+
+
+li{
+	background-color: pink;
+}
